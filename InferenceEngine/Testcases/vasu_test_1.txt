@@ -1,0 +1,7 @@
+1
+G(Add)
+4
+F(x,y,z) ^ R(z) => G(z)
+A(x,y,z) => F(x,y,x)
+A(Add,Sub,Add)
+R(Add)

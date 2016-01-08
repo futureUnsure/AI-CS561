@@ -1,0 +1,6 @@
+1
+A(Bob)
+3
+F(x) => A(x)
+B(Bob)
+F(Bob)

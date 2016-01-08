@@ -1,0 +1,8 @@
+1
+C(John,Bob)
+4
+A(x,y) ^ B(x,Bill) => C(John,y)
+B(x,y) => A(Jon,y)
+B(John,Bill)
+B(Tam,Bob)
+

@@ -1,0 +1,10 @@
+1
+H(Jomnhn,Mamntt,p)
+4
+A(m,n,z) ^ R(z) ^ T(m,n) ^ Q(s) => H(m,n,z)
+A(Jomnhn,Mamntt,Son)
+A(Jomnhn,Mamntt,Daughter)
+R(Son)
+R(Daughter)
+T(Jomnhn,Mamntt)
+Q(Sap)

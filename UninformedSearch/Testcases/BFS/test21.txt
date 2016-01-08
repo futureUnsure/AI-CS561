@@ -1,0 +1,20 @@
+1
+BFS
+A
+E G H N K L I
+B C D M F J
+13
+A B 2 0
+A C 30 0
+A D 15 0
+A M 30 0
+B E 100 0
+B F 4 1 0-1
+C N 5 0
+D J 1 0
+M I 5 0
+F G 6 0
+F H 200 0
+J K 300 0
+J L 400 0
+22

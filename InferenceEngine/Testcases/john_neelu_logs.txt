@@ -1,0 +1,98 @@
+Press ENTER or type command to continue
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal, theta
+('Sibling(John,Neelu)', {})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal, theta
+(<__main__.Atomic instance at 0x7fcdb5c04200>, {'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_1', 'John'], {'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_1', 'John'], {'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Father', ['v_1', 'John'], {'v_8': 'v_1', 'v_9': 'John', 'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) p goal.op, goal.terms, theta
+('Father', ['v_1', 'John'], {'v_8': 'v_1', 'v_9': 'John', 'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['Shawn', 'Neelu'], {'v_1': 'Shawn', 'v_8': 'v_1', 'v_9': 'John', 'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Father', ['Shawn', 'Neelu'], {'v_2': 'John', 'v_1': 'Shawn', 'v_10': 'Shawn', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_4', 'v_5'], {'v_2': 'John', 'v_1': 'Shawn', 'v_10': 'Shawn', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Father', ['v_4', 'v_5'], {'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_6', 'v_7'], {'v_4': 'Shawn', 'v_5': 'John', 'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Father', ['v_6', 'v_7'], {'v_4': 'Shawn', 'v_5': 'John', 'v_14': 'v_6', 'v_15': 'v_7', 'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Mother', ['v_6', 'v_7'], {'v_4': 'Shawn', 'v_5': 'John', 'v_17': 'v_7', 'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_16': 'v_6', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_6', 'v_7'], {'v_4': 'Suresh', 'v_5': 'Ramesh', 'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_6', 'v_7'], {'v_4': 'Shawn', 'v_5': 'Neelu', 'v_12': 'v_4', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_10': 'Shawn', 'v_13': 'v_5'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Mother', ['v_4', 'v_5'], {'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_18': 'v_4', 'v_19': 'v_5', 'v_10': 'Shawn'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_6', 'v_7'], {'v_4': 'Kill', 'v_5': 'Bill', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_18': 'v_4', 'v_19': 'v_5', 'v_10': 'Shawn'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Parent', ['v_6', 'v_7'], {'v_4': 'Neelu', 'v_5': 'Sarah', 'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_11': 'Neelu', 'v_8': 'v_1', 'v_9': 'John', 'v_18': 'v_4', 'v_19': 'v_5', 'v_10': 'Shawn'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Mother', ['Shawn', 'Neelu'], {'v_1': 'Shawn', 'v_2': 'John', 'v_3': 'Neelu', 'v_21': 'Neelu', 'v_20': 'Shawn', 'v_8': 'v_1', 'v_9': 'John'})
+(Pdb) c
+> /home/bhavishya/AI/HW/HW3/inference_with_generator.py(186)bc_or()
+-> if not isinstance(goal, Atomic):
+(Pdb) p goal.op, goal.terms, theta
+('Mother', ['v_1', 'John'], {'v_23': 'John', 'v_22': 'v_1', 'v_2': 'John', 'v_3': 'Neelu'})
+(Pdb) c
+Traceback (most recent call last):
+  File "inference_with_generator.py", line 254, in <module>
+    print list(test_for_whatsapp_test_case())
+TypeError: 'int' object is not iterable
+
+

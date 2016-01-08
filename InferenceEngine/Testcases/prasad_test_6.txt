@@ -1,0 +1,10 @@
+1
+C(Gaurav)
+7
+B(x) ^ A(x) => C(z)
+D(y) ^ E(y) => A(x)
+Z(y) ^ Y(y) => E(y)
+D(Bob)
+Z(Bob)
+Y(Bob)
+B(Alice)

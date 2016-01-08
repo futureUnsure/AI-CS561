@@ -1,0 +1,7 @@
+1
+G(Add)
+4
+F(y,y,x) ^ R(z) => G(z)
+A(x,y,z) => F(x,y,y)
+A(Random1,Sub,Random2)
+R(Add)

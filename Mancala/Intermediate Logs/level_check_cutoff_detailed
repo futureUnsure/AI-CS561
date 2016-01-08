@@ -1,0 +1,497 @@
+first argmax!
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 2), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+going to play
+B2
+Board after playing
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+min!
+ at level
+0
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 0)])
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 4), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+-1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 0), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+-1
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+-1
+min value:
+-1
+Going to play:
+A3
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 0), ('A2', 3)])
+max!
+ at level
+1
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 0), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 2), ('B3', 4), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 0), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+A4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 0), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 1), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 0), ('A3', 1), ('A2', 4)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+min value:
+-1
+Going to play:
+A4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+max!
+ at level
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 0), ('B4', 4), ('B5', 1), ('A4', 1), ('A3', 3), ('A2', 3)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 3), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 3), ('B4', 0), ('B5', 0), ('A4', 1), ('A3', 4), ('A2', 4)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+min value:
+-1
+-1 B2
+subsequent argmax!
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 2), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 0), ('B4', 3), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+min!
+ at level
+0
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 0), ('B4', 3), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+max!
+ at level
+1
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+A3
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 1), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 0), ('A2', 3)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+A4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 1), ('B3', 2), ('B4', 4), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+-1
+Going to play:
+A3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 4), ('B5', 0), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 1), ('B3', 2), ('B4', 4), ('B5', 0), ('A4', 0), ('A3', 0), ('A2', 4)])
+min!
+ at level
+2
+cutoff!
+max_value:
+-1
+min value:
+-1
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 0), ('B4', 3), ('B5', 0), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 0), ('B4', 0), ('B5', 0), ('A4', 4), ('A3', 3), ('A2', 3)])
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 0), ('B4', 0), ('B5', 0), ('A4', 4), ('A3', 3), ('A2', 3)])
+empty pit last stop!
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 0), ('B3', 1), ('B4', 0), ('B5', 5), ('A4', 0), ('A3', 3), ('A2', 3)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+min value:
+-1
+-1 B2
+subsequent argmax!
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 2), ('B5', 0), ('A4', 2), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 2)])
+min!
+ at level
+0
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 0)])
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 3), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 3), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 0), ('B4', 2), ('B5', 3), ('A4', 4), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+1
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 3), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 3), ('B4', 0), ('B5', 2), ('A4', 4), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 0), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 0), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 2), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 2), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 0), ('B4', 3), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+2
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 2), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 0), ('B5', 3), ('A4', 4), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+2
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 0), ('B4', 1), ('B5', 2), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 0), ('B4', 0), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 0), ('B4', 0), ('B5', 3), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 1), ('B5', 4), ('A4', 3), ('A3', 2), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 1), ('B5', 4), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 0), ('B4', 2), ('B5', 4), ('A4', 3), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+3
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 1), ('B5', 4), ('A4', 3), ('A3', 2), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 0), ('B3', 1), ('B4', 0), ('B5', 4), ('A4', 4), ('A3', 2), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+3
+min value:
+3
+Going to play:
+A3
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 0), ('A2', 3)])
+max!
+ at level
+1
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 0), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 4), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 0), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+1
+Going to play:
+A4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 3), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 0), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 0), ('B2', 4), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 1), ('A2', 4)])
+min!
+ at level
+2
+cutoff!
+max_value:
+1
+min value:
+1
+Going to play:
+A4
+Board before playing:
+OrderedDict([('A1', 0), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 3), ('A3', 2), ('A2', 2)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 3)])
+min move again!
+min!
+ at level
+0
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 3), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 0)])
+max!
+ at level
+1
+Going to play:
+B2
+Board before playing:
+OrderedDict([('A1', 2), ('B2', 3), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 0), ('B3', 4), ('B4', 1), ('B5', 2), ('A4', 0), ('A3', 3), ('A2', 0)])
+max_move_again!
+max!
+ at level
+1
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 2), ('B2', 0), ('B3', 4), ('B4', 1), ('B5', 2), ('A4', 0), ('A3', 3), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 0), ('B3', 0), ('B4', 2), ('B5', 3), ('A4', 1), ('A3', 4), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+B4
+Board before playing:
+OrderedDict([('A1', 2), ('B2', 0), ('B3', 4), ('B4', 1), ('B5', 2), ('A4', 0), ('A3', 3), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 0), ('B3', 4), ('B4', 0), ('B5', 2), ('A4', 1), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+Going to play:
+B3
+Board before playing:
+OrderedDict([('A1', 2), ('B2', 3), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 0)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 3), ('B3', 0), ('B4', 1), ('B5', 2), ('A4', 1), ('A3', 3), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+min value:
+0
+Going to play:
+A3
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 2), ('B3', 2), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 3), ('A2', 3)])
+Board after playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 0), ('A2', 4)])
+max!
+ at level
+1
+Going to play:
+A2
+Board before playing:
+OrderedDict([('A1', 1), ('B2', 3), ('B3', 3), ('B4', 0), ('B5', 1), ('A4', 0), ('A3', 0), ('A2', 4)])
+Board after playing:
+OrderedDict([('A1', 2), ('B2', 4), ('B3', 4), ('B4', 1), ('B5', 1), ('A4', 0), ('A3', 0), ('A2', 0)])
+min!
+ at level
+2
+cutoff!
+max_value:
+0
+min value:
+0
+0 B4

@@ -1,0 +1,18 @@
+2
+1
+10
+4 3 4
+0 0 5
+0
+0
+
+0 0 0 
+0 0 0 
+9
+7
+
+Node,Depth,Value
+root,0,-Infinity
+B4,1,Infinity
+B4,1,-2
+root,0,-2

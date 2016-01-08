@@ -1,0 +1,22 @@
+1
+BFS
+India
+USA Canada
+Pakistan London Dubai Singapore Korea
+15
+India Pakistan 3 0
+Pakistan London 7 3 2-4 1-5 9-10
+India London 8 1 1-2
+Dubai London 5 2 5-6 2-3
+India Dubai 1 1 10-14
+Pakistan Dubai 1 0
+London USA 11 0
+Dubai USA 16 0
+Pakistan Singapore 8 3 2-4 1-5 9-10
+India Singapore 7 1 1-2
+Singapore Korea 3 0
+Singapore USA 16 0
+Korea USA 16 0
+USA Canada 1 0
+London Canada 12 0
+0
