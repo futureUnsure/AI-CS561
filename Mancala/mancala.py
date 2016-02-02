@@ -53,12 +53,12 @@ def alpha_beta_decision(state, mancala, file_handle):
         log_alpha_beta(file_handle, root, level, val, alpha, beta)
 
         if len(sequence) == 0:
-                    log_alpha_beta(file_handle, state.previous_move, 0,
-                            compute_eval(state), alpha, beta)
+            log_alpha_beta(file_handle, state.previous_move, 0,
+            compute_eval(state), alpha, beta)
             return compute_eval(state), state.previous_move
+
         max_payoff_move = sequence[0]
         result = mancala.result(state, max_payoff_move)
-
         if result.mancala_is_last_stop is True:
             log_alpha_beta(file_handle, result.previous_move, 1,
                             "-Infinity", alpha, beta)
@@ -137,11 +137,11 @@ def alpha_beta_decision(state, mancala, file_handle):
         state.player = mancala.max_player
         if(state.game_over is True):
             if not state.mancala_is_last_stop:
-                        log_alpha_beta(file_handle, state.previous_move,
-                        level, compute_eval(state), alpha, beta)
+                log_alpha_beta(file_handle, state.previous_move,
+                level, compute_eval(state), alpha, beta)
             else:
-                        log_alpha_beta(file_handle, state.previous_move,
-                        level + 1, compute_eval(state), alpha, beta)
+                log_alpha_beta(file_handle, state.previous_move,
+                level + 1, compute_eval(state), alpha, beta)
             return compute_eval(state)
         if (cutoff_test(level)):
             log_alpha_beta(file_handle, state.previous_move, level,
@@ -149,7 +149,6 @@ def alpha_beta_decision(state, mancala, file_handle):
             return compute_eval(state)
 
         v = -infinity
-
         if not state.mancala_is_last_stop and level != 1:
                     log_alpha_beta(file_handle, state.previous_move, level,
                     "-Infinity", alpha, beta)
