@@ -14,7 +14,6 @@ Player2Board = []
 Player1Mancala = 0
 Player2Mancala = 0
 
-
 def natural_key(string_):
     return [int(s) if s.isdigit() else s for s in re.split(r'(\d+)', string_)]
 
@@ -313,8 +312,6 @@ def minimax_decision(state, mancala, file_handle):
     return argmax(mancala.get_legal_moves(state),
     lambda x,y: min_value(x, y), lambda x,y: max_value(x, y), mancala)
 
-
-
 class Mancala:
     def __init__(self, board, cutoff, player, task):
         self.task = task
@@ -442,7 +439,6 @@ class Mancala:
             mancala_is_last_stop = self.mancala_is_last_stop,
             game_over = self.game_over,previous_move = move)
 
-
 def write_state(board, file_handle):
     player2_board_iter = len(board) - 1
     Player1MancalaIdx = len(board) / 2
@@ -464,8 +460,6 @@ def write_state(board, file_handle):
     file_handle.write("\n")
     file_handle.write(str(board.values()[Player2MancalaIdx]) + "\n")
     file_handle.write(str(board.values()[Player1MancalaIdx]) + "\n")
-
-
 
 def read_game(file_handle):
     global GameType, MaxPlayer, CutOff, Player1Board, Player2Board
@@ -490,7 +484,6 @@ def read_game(file_handle):
     for (pit_index, board_iter) in enumerate(range(len(Player2Board) + 1, 1, -1)):
         pit = 'A'+str(board_iter)
         GameBoard[pit] = Player2Board[(len(Player2Board) - 1) - pit_index]
-
 
 def get_next_state(state, mancala, move, value):
     state = copy.deepcopy(state)
