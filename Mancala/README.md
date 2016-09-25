@@ -25,7 +25,7 @@ Introduction to Mancala:
 Evaluation Function:
 --------------------
 - In order to quickly compute the utility of the game sub tree, used the following evaluation function
-	Eval(state) = No. of player's stones - No. of opponent's stones
+	```Eval(state) = No. of player's stones - No. of opponent's stones```
 
 Tie-Breaking:
 -------------
@@ -46,17 +46,21 @@ Output:
 -------
 - Display the state of the board after playing the generated best next move
 - Generate traverse logs in the following format (for each move)
-	
+
+	```	
 	Node, Depth, Value
 	
 	Node: The chosen pit
 	Depth: Depth of the node
 	Value: Value of the node
+	```
 
 - Generated output files are:
 
+	```
 	next_state.txt
 	traverse_log.txt
+	```
 
 Usage:
 ------
