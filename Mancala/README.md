@@ -1,5 +1,5 @@
-Mancala : Game Playing Agent for an old African Board Game
-==========================================================
+Mancala : Game Playing Agent
+============================
 
 Summary:
 --------
