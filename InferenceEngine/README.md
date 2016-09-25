@@ -25,8 +25,6 @@ Input Specifications:
 - Implication: ``` P1 ^ P2 ^ ... Pn => Q ```
 - Fact:  '''P''' or '''~P'''(Atomic sentences)
 - All ```P``` and ```Q``` are either a literal or a negative of a literal
-- Number of stones in player 2's mancala
-- Number of stones in player 1's mancala
 
 Output:
 -------
