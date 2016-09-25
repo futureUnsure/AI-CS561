@@ -25,7 +25,7 @@ Introduction to Mancala:
 Evaluation Function:
 --------------------
 - In order to quickly compute the utility of the game sub tree, used the following evaluation function
-	```Eval(state) = No. of player's stones - No. of opponent's stones```
+- ```Eval(state) = No. of player's stones - No. of opponent's stones```
 
 Tie-Breaking:
 -------------
