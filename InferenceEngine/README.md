@@ -5,7 +5,7 @@ Summary:
 --------
 - Simulates Logic Programming primitives on a Knowledge Base
 - Computes if the given query can be inferred from the Knowledge Base or not
-- Implemented Backward Chaining algorithm with loop detection for inference
+- Uses Backward Chaining algorithm with loop detection for inference
 
 Introduction
 ------------
