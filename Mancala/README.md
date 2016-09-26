@@ -5,9 +5,9 @@ Summary:
 --------
 - Simulates the board game with an adversarial opponent
 - Computes the best next move for the player against the opponent using AI
-- Built the exhaustive game search space
-- Used greedy, minimax and alpha beta pruning to determine the next best move from the game search space
-- Generated the traverse logs of each path taken by the algorithm
+- Builds the exhaustive game search space
+- Uses greedy, minimax and alpha beta pruning to determine the next best move from the game search space
+- Generates the traverse logs of each path taken by the algorithm
 
 Introduction to Mancala:
 ------------------------
