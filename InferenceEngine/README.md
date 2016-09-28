@@ -1,8 +1,8 @@
 Inference Engine : Logic Programming
 ====================================
 
-Summary:
---------
+Summary
+-------
 - Simulates Logic Programming primitives on a Knowledge Base
 - Computes if the given query can be inferred from the Knowledge Base or not
 - Uses Backward Chaining algorithm with loop detection for inference
@@ -15,8 +15,8 @@ Introduction
 - Using an inference engine, we can find out if a certain type of personal information can be extracted by that enterprise if it gains access to another set of information about the user.
 
 
-Input Specifications:
----------------------
+Input Specifications
+--------------------
 - Number of Queries
 - Queries follow (For each of them, have to determine whether it can be inferred or not)
 - Number of Clauses in the Knowledge Base
@@ -26,13 +26,13 @@ Input Specifications:
 - Fact:  '''P''' or '''~P'''(Atomic sentences)
 - All ```P``` and ```Q``` are either a literal or a negative of a literal
 
-Output:
--------
+Output
+------
 - For each of the Query in the Input, print ```TRUE``` if it could be inferred else print ```FALSE```
 - Output file is ```output.txt```
 
-Usage:
-------
+Usage
+-----
 	python inference.py <path_to_input_file>
 
 	 
