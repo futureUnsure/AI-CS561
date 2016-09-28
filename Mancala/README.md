@@ -1,16 +1,16 @@
 Mancala : Game Playing Agent
 ============================
 
-Summary:
---------
+Summary
+-------
 - Simulates the board game with an adversarial opponent
 - Computes the best next move for the player against the opponent using AI
 - Builds the exhaustive game search space
 - Uses greedy, minimax and alpha beta pruning to determine the next best move from the game search space
 - Generates the traverse logs of each path taken by the algorithm
 
-Introduction to Mancala:
-------------------------
+Introduction to Mancala
+-----------------------
 - Mancala is a two-player game from Africa in which players moves stones around a [board](http://imgur.com/GnqbdJ4)
 - The players try to capture as many stones as possible
 - Player 1 owns the bottom row, while Player 2 owns the top row
@@ -22,18 +22,18 @@ Introduction to Mancala:
 - If the player's last stone ends in an empty pit on his or her own side, the player captures all of the stones in the pit directly across the board from where the last stone was placed (the opponents stones are removed from the pit and placed in the player's Mancala) as well as the last stone placed (the one placed in the empty pit)
 - The game ends when one player cannot move on his or her turn, at which time the other player captures all of the stones remaining on his or her side of the board.
 
-Evaluation Function:
---------------------
+Evaluation Function
+-------------------
 - In order to quickly compute the utility of the game sub tree, used the following evaluation function
 - ```Eval(state) = No. of player's stones - No. of opponent's stones```
 
-Tie-Breaking:
--------------
+Tie-Breaking
+------------
 - Ties between pits are broken by selecting the node that is first in the position order.
 - Order for the traverse logs are in the position order as well.
 
-Input Specifications:
----------------------
+Input Specifications
+--------------------
 - Algorithm to be used: <code> 1 - Greedy, 2 - Minimax, 3 - Alpha Beta </code>
 - Game Player : <code> 1 - Bottom Row, 2 - Top Row </code>
 - Cut-off depth
@@ -42,8 +42,8 @@ Input Specifications:
 - Number of stones in player 2's mancala
 - Number of stones in player 1's mancala
 
-Output:
--------
+Output
+------
 - Display the state of the board after playing the generated best next move
 - Generate traverse logs in the following format (for each move)
 
