@@ -62,7 +62,7 @@ Output
 	traverse_log.txt
 	```
 
-Usage:
+Usage
 ------
 	python mancala.py <path_to_input_file> 
 	 
